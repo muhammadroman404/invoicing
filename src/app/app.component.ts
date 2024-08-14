@@ -52,7 +52,7 @@ export class AppComponent {
     cost: new FormControl('', [Validators.required]),
     startDate: new FormControl('', [Validators.required]),
     endDate: new FormControl('', [Validators.required]),
-    source: new FormControl('', [Validators.required]),
+    // source: new FormControl('', [Validators.required]),
   });
   filter = new FormGroup({
     startDate: new FormControl('', [Validators.required]),
