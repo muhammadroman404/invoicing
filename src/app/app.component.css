@@ -1,0 +1,31 @@
+.w-100 {
+    width: 100% !important;
+}
+
+.p-15 {
+    padding-left: 15px !important;
+    padding-right: 15ppx !important;
+}
+
+table {
+    border: 1px solid #EDEDED !important;
+}
+
+th {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+    background: #EDEDED !important;
+}
+
+td {
+    padding: 15px;
+}
+
+.w10 {
+    width: 10% !important;
+}
+.w20{
+    width: 20% !important;
+}
+@media print {.noprint { display: none !important;}}
