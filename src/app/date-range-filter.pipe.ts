@@ -7,7 +7,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class DateRangeFilterPipe implements PipeTransform {
 
   transform(items: any[], startDate: string, endDate: string): any[] {
-    debugger
+    
     if (!items || !startDate || !endDate) {
       return items;
     }

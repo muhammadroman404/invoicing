@@ -62,7 +62,6 @@ export class AppComponent {
   downloadJsonHref: any;
   constructor(public dialog: MatDialog,private sanitizer:DomSanitizer) {
     this.rowData = this.getItem();
-    console.log(this.rowData);
   }
   addRow() {
     if (this.invoiceForm.valid) {
@@ -72,7 +71,7 @@ export class AppComponent {
     }
   }
   getTotal() {
-    debugger
+    
     if (!this.filterStartDate() || !this.filterEndDate()) {
       return this.rowData.reduce((acc: any, curr: any) => {
         return acc + +curr?.cost;
