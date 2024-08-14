@@ -44,7 +44,7 @@ export class AppComponent {
   rowData: any = [];
   today = new Date();
   dataSource = new MatTableDataSource([]);
-  title = 'wiki-invoicing';
+  title = 'invoicing';
   filterStartDate = signal<any>(null);
   filterEndDate = signal<any>(null);
   invoiceForm = new FormGroup({
